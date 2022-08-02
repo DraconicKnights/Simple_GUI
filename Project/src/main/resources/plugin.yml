@@ -1,0 +1,17 @@
+name: Trails
+version: '${project.version}'
+main: trails.trails.Trails
+api-version: 1.19
+commands:
+  trails:
+    usage: /trails
+    aliases: /trails
+    description: Opens the trail menu
+  admin:
+    usage: /admin
+    aliases: /admin
+    description: Adds players to the admin test list
+  staff:
+    usage: /Staff
+    aliases: /staff gui
+    description: Opens the staff menu
